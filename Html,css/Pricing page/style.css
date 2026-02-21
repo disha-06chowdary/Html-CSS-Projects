@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+}
+
+.pricing {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.pricing h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: #fff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.price span {
+    font-size: 14px;
+    color: #777;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.pricing-card ul li {
+    margin: 10px 0;
+    color: #555;
+}
+
+.pricing-card button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background: #0056b3;
+}
+
+/* Highlighted Plan */
+.popular {
+    border: 2px solid #007bff;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 20px;
+ } 
+ 
